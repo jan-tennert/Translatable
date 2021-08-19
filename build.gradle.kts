@@ -11,11 +11,6 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    testImplementation("org.mockito:mockito-junit-jupiter:3.11.2")
-    testImplementation(kotlin("test"))
-}
-
 tasks.test {
     useJUnit()
 }
